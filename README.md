@@ -20,7 +20,7 @@ A high-performance computational suite for derivative pricing, stochastic modeli
 ### 4. Risk Engine
 * **VaR Calculation:** Market risk assessment via **Historical Simulation** and **Monte Carlo** paths, including convexity corrections and exposure netting.
 
-## 📊 Visual Portfolio
+
 
 
 
@@ -34,3 +34,30 @@ A high-performance computational suite for derivative pricing, stochastic modeli
 /Computational_finance    # Stochastic processes & numerical pricing theory
 /Financial_Engineering    # IR models (HW/Ho-Lee), Yield Curves, Risk Engines
 /Outputs                  # Performance plots and model comparisons
+
+
+Quantitative Finance & Fixed Income Library
+
+This repository contains my personal implementations of numerical methods and financial models developed while studying the Computational Finance course materials.
+Overview
+
+This collection serves as a study companion to the book "Mathematical Modeling and Computation in Finance: With Exercises and Python and MATLAB Computer Codes" by C.W. Oosterlee and L.A. Grzelak. The implementations focus on bridging theoretical stochastic calculus with practical Python-based numerical solutions.
+Topics Covered
+
+The library includes implementations of:
+
+    Stochastic Processes: Simulation of Heston (Stochastic Volatility), Merton Jump-Diffusion, and CIR processes.
+
+    Option Pricing: Numerical pricing frameworks using the COS Method (Fourier-cosine expansion) and FFT-based density recovery.
+
+    Fixed Income Analytics: Multi-curve frameworks, yield curve bootstrapping, and exotic interest rate derivatives (Swaps, Caplets) via Hull-White path simulations.
+
+    Numerical Techniques: Euler-Maruyama and Milstein discretization schemes for path-dependent derivatives.
+
+Academic Integrity & Attribution
+
+    All core algorithmic logic and mathematical frameworks are based on the original research and materials provided by C.W. Oosterlee and L.A. Grzelak.
+
+    These files represent my independent study, implementation, and annotation of the course lectures.
+
+    Original headers and author attributions are maintained to respect the intellectual property of the creators.
